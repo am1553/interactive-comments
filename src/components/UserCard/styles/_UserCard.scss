@@ -1,0 +1,60 @@
+.user-card {
+  background-color: #fff;
+  width: 90%;
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 1rem;
+  img {
+    width: 2rem;
+    margin-right: 1rem;
+  }
+}
+
+.message {
+  margin: 1rem 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.counter {
+  background-color: $light-gray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 5rem;
+  border-radius: 0.5rem;
+  button {
+    width: 1.5rem;
+    height: 100%;
+    background: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.reply {
+  .reply-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    img {
+      margin: 0.5rem 0.5rem;
+    }
+  }
+}
